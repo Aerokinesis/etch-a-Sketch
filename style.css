@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: peachpuff;
+}
+
+#container {
+    width: 960px;
+    height: 960px;
+    background-color: burlywood;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-content: flex-start;
+
+    /* border-width: 2px; */
+    /* border-style: solid;
+    border-color: black; */
+}
+
+.items {
+    border: black;
+    border-width: 0.5px;
+    border-style: solid;
+}
