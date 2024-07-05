@@ -30,3 +30,19 @@ body {
     border-width: 0.5px;
     border-style: solid;
 }
+
+.buttonContainer {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 0 16px;
+    height: 48px;
+    padding: 8px 16px;
+    background-color: coral;
+    border-color: rgb(12, 12, 112);
+    border-width: 1px;
+    border-style: solid;
+}
