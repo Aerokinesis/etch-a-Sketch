@@ -27,7 +27,7 @@ function drawGrid(size = 16) {
 }
 
 gridSize.addEventListener("click", function() {
-    userSelectedSize = parseInt(prompt("Enter a grid size"));
+    userSelectedSize = parseInt(prompt("Enter a grid size less than 100"));
 
     if (userSelectedSize > 100) {
         alert("Too big");
