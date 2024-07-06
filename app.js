@@ -17,7 +17,7 @@ function drawGrid(size = 16) {
         board.classList.add("items");
 
         board.addEventListener("mouseover", function() {
-            this.style.backgroundColor = "black";
+            board.style.backgroundColor = "black";
         });
 
         board.style.width = `${containerWidth / size}px`;
