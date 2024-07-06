@@ -20,6 +20,7 @@ function drawGrid(size = 16) {
     for (let i = 0; i < size * size; i++) {
         let board = document.createElement('div');
         board.classList.add("items");
+        
 
         board.addEventListener("mouseover", function() {
             board.style.backgroundColor = "#" + randomColor();
