@@ -10,6 +10,11 @@ const containerHeight = container.offsetHeight;
 
 console.log(containerWidth);
 console.log(containerHeight);
+console.log(Math.floor(Math.random()*16777215).toString(16));
+
+function randomColor(){
+    return Math.floor(Math.random()*16777215).toString(16);
+}
 
 function drawGrid(size = 16) {
     for (let i = 0; i < size * size; i++) {
@@ -17,7 +22,7 @@ function drawGrid(size = 16) {
         board.classList.add("items");
 
         board.addEventListener("mouseover", function() {
-            board.style.backgroundColor = "black";
+            board.style.backgroundColor = "#" + randomColor();
         });
 
         board.style.width = `${containerWidth / size}px`;
